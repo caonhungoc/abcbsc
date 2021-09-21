@@ -11,3 +11,8 @@ void resetSensor()
 {
     i2c.write(0x00);
 }
+
+void disconnectSensor() 
+{
+    i2c.write(0x11);
+}
