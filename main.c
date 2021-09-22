@@ -2,6 +2,7 @@
 
 int main()
 {
+    print(getVersion());
     while(1) 
     {
         print(getHumidValue());
