@@ -1,4 +1,4 @@
-#include "pwm.h"
+#include "humid/humid.h"
 
 int main()
 {
@@ -6,7 +6,8 @@ int main()
     print(getVersion());
     while(1) 
     {
-        controlSpeed(50, 50);
+        print(getHumidValue());
+        delay(1000);
     }
     return 0;
 }
