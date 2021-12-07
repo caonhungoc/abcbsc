@@ -2,6 +2,7 @@
 
 int main()
 {
+    // add to test git
     print(getVersion());
     while(1) 
     {
